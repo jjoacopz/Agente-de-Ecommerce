@@ -21,9 +21,15 @@ pip install -q -r creative-scout/requirements.txt && python -m playwright instal
 python creative-scout/scout.py -q "palabra 1" "palabra 2" ... -p AR
 ```
 
-- Imprime la carpeta de salida; leé `resultados.json` de esa carpeta.
+- Imprime la carpeta de salida; leé `resultados.json` de esa carpeta. Trae miniaturas en `img/`
+  y los mejores videos en `video/` (`--videos N` cambia cuántos).
 - `-f meta pinterest tiktok` limita las fuentes. `--visible` abre el navegador si alguna pide captcha o login.
+- Meta corta a quien busca mucho sin sesión y devuelve vacío. Si pasa, no repitas la corrida enseguida:
+  seguí con lo que haya y avisá que conviene esperar un rato.
+- Pinterest sin sesión solo da imágenes (sin texto ni link al pin): usalas como referencia visual.
 - Si una fuente falla (aparece en `errores`), seguí con las demás y decilo en el informe. No inventes resultados.
+- Si querés ver un video, sacá 4 o 5 cuadros con ffmpeg (`ffmpeg -i video.mp4 -vf fps=1/3 cuadro_%02d.jpg`)
+  y leelos, así podés describir el gancho y los textos en pantalla de verdad.
 
 ## Paso 3 — Instagram, TikTok orgánico, YouTube Shorts (búsqueda web)
 Usá WebSearch con consultas como:

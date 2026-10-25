@@ -9,7 +9,34 @@
     "conjunto deportivo mujer",
     "scrunch leggings"
   ],
-  "fuentes": ["meta", "pinterest", "tiktok"],
+  "fuentes": [
+    "meta",
+    "pinterest",
+    "tiktok"
+  ],
   "max_por_busqueda": 30,
-  "scrolls": 6
+  "scrolls": 6,
+  "videos_a_descargar": 10,
+  "terminos_relevantes": [
+    "calza",
+    "legging",
+    "scrunch",
+    "conjunto deportivo",
+    "biker",
+    "activewear",
+    "athleisure",
+    "sportswear",
+    "ropa deportiva",
+    "indumentaria deportiva",
+    "gym",
+    "yoga",
+    "pilates",
+    "workout",
+    "glúteo",
+    "gluteo",
+    "levanta cola",
+    "push up",
+    "sports bra",
+    "top deportivo"
+  ]
 }

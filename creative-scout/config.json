@@ -1,0 +1,15 @@
+{
+  "pais": "AR",
+  "palabras_clave": [
+    "calza levanta cola",
+    "calza seamless",
+    "conjunto seamless",
+    "calzas 2x1",
+    "calza sin costura",
+    "conjunto deportivo mujer",
+    "scrunch leggings"
+  ],
+  "fuentes": ["meta", "pinterest", "tiktok"],
+  "max_por_busqueda": 30,
+  "scrolls": 6
+}
